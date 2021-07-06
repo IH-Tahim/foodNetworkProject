@@ -47,6 +47,11 @@ a {
     font-size: 20px;
 }
 
+.button:hover{
+    box-shadow: 3px 3px 15px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+}
+
 /* Header Section Start*/
 .header {
     text-align: center;
