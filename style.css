@@ -23,6 +23,7 @@ a{
 .row{
     max-width: 1140px;
     display: flex;
+    flex-wrap: wrap;
 }
 .button{
     background-image: linear-gradient(90deg,#ff924f,tomato);
@@ -72,7 +73,6 @@ a{
 
 /* About Section Start*/
 .about-section{
-    /* height: 90vh; */
     background-image: url(img/7.png);
     background-repeat: no-repeat;
 }
@@ -95,3 +95,48 @@ a{
     margin-bottom: 90px;
     line-height: 2;
 }
+/* About Section End*/
+
+ /* Recipies Section Start  */
+.recipie-heading{
+    text-align: center;
+}
+.recipie-heading h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+    letter-spacing: 1.2px;
+}
+.recipie-heading h5{
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+.recipie-heading p{
+    margin-bottom: 15px;
+}
+.recipie-items{
+    display: flex;
+    flex-wrap: wrap;
+}
+.recipie-item{
+    width: 25%;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 15px 10px rgba(0,0,0,0.08);
+}
+.recipie-item img{
+    width: 100%;
+    height: 200px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+.recipie-item h3{
+    font-size: 25px;
+    letter-spacing: 1.2px;
+    margin-bottom: 12px;
+    line-height: 1.6;
+}
+.recipie-item p{
+    margin-bottom: 15px;
+}
+ /* Recipies Section End*/
